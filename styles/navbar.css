@@ -1,0 +1,63 @@
+:root {
+  --blue-dark: #0a2540;
+  --blue-light: #0d7aff;
+  --white: #ffffff;
+}
+
+.navbar-custom {
+  background-color: var(--blue-dark);
+  border-radius: 45px;
+  padding: 10px !important;
+  margin: 30px 0;
+  box-sizing: border-box;
+}
+
+.logo-circle {
+  width: 50px;
+  height: 50px;
+  background-color: var(--blue-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: white !important;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  padding: 8px 20px !important;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d7aff !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: #0d7aff !important;
+}
+
+.navbar-btn-contact {
+  color: var(--white) !important;
+  background-color: var(--blue-light) !important;
+  height: 50px;
+}
