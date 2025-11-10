@@ -14,9 +14,10 @@ function userFileNameHandler(opt) {
 
 // Funciones iniciales
 function start_fun() {
-    // 1. Configurar el usuario por defecto (Lógica de Store)
-    // setUserFileName(1);
-    // console.log(`Usuario activo: ${getUserFileName()}`);
+    // 1. Configurar el usuario incial
+    if (!getUserFileName()) {
+        setUserFileName(Math.floor(Math.random() * 4) + 1)
+    }
 
     // 2. Cargar contenido inicial y navbar (Lógica de Router)
     route();
