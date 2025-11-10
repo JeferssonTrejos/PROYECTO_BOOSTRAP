@@ -1,6 +1,102 @@
-<div>
-    <h1>About me</h1>
-    <p>Here are aaaaaaaaaaaaaaaa</p>
+<section class="aboutme" id="aboutme-container">
+    <!-- Descripcion general -->
+    <section class="aboutme-general row row-cols-1 row-cols-lg-2">
+        <div class="aboutme-general-img d-flex justify-content-center">
+            <img class="rounded-circle object-fit-cover"
+            src="https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880" alt="" />
+            <!-- src="https://plus.unsplash.com/premium_vector-1721131163044-dec629b1f4f9?q=80&w=880" alt="" /> -->
+        </div>
 
-    <button class="btn btn-info r p-3 m-1">Hello world</button>
-</div>
+        <div class="aboutme-general-texts d-flex flex-column justify-content-center align-items-start gap-3">
+            <span class="aboutme-general-about-text p-1 px-3 rounded-3 fw-semibold">Sobre mi</span>
+            <h2 class="fw-semibold">Quien es <span class="aboutme-general-name">Juan</span>?</h2>
+            <p class="aboutme-general-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quas
+                suscipit quisquam voluptatem rerum nam illo rem ab esse
+                reiciendis alias libero omnis, fuga eaque consectetur qui eum tempore
+                voluptas!
+            </p>
+        </div>
+    </section>
+
+    <hr class="border-2" />
+
+    <div class="aboutme-content container row">
+
+        <!-- Educacion y experiencia -->
+        <section class="aboutme-experience col-lg-8">
+            <h2 class="aboutme-experience-title fw-semibold mb-5">
+                Experiencia & Educación
+            </h2>
+
+            <div id="aboutme-experience-list">
+                <article class="aboutme-experience-item d-flex">
+                    <div class="experience-item-body w-75 mx-3 px-3 border-3 mb-5">
+                        <!-- -->
+                        <div class="experience-item-info mb-4">
+                            <time class="experience-item-date fw-bold p-1 px-3 rounded-5 me-3"
+                                datetime="2025">2025</time>
+                            <span class="experience-item-type">EDUCACION</span>
+                        </div>
+
+                        <!-- -->
+                        <h3 class="experience-item-title fw-bold">
+                            Curso de huawei
+                        </h3>
+                        <p class="experience-item-place">Universidad de oriente.</p>
+                        <p class="experience-item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Delectus eius facilis fugit! Nihil, repellendus sapiente.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="aboutme-experience-item d-flex">
+                    <div class="experience-item-body w-75 mx-3 px-3 border-3 mb-5">
+                        <!-- -->
+                        <div class="experience-item-info mb-4">
+                            <time class="experience-item-date fw-bold p-1 px-3 rounded-5 me-3"
+                                datetime="2025">2025</time>
+                            <span class="experience-item-type">EDUCACION</span>
+                        </div>
+
+                        <!-- -->
+                        <h3 class="experience-item-title fw-bold">
+                            Curso de Cyber Seguridad
+                        </h3>
+                        <p class="experience-item-place">Universidad de oriente.</p>
+                        <p class="experience-item-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Delectus eius facilis fugit! Nihil, repellendus sapiente.
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Habilidades -->
+        <section class="aboutme-skills col-lg-4">
+            <h2 class="aboutme-skills-title fw-semibold mb-5">Habilidades</h2>
+
+            <div id="aboutme-skills-list">
+                <div class="aboutme-skill-item mb-4">
+                    <label class="skill-item-info d-flex justify-content-between">
+                        <span class="skill-item-title fw-medium">React</span>
+                        <span class="skill-item-percentage fw-bold p-1 px-2 rounded-2">70%</span>
+                    </label>
+                    <progress class="skill-item-progress w-100" value="70" max="100">70%</progress>
+                </div>
+                <!--  -->
+                <div class="aboutme-skill-item mb-4">
+                    <label class="skill-item-info d-flex justify-content-between">
+                        <span class="skill-item-title fw-medium">React</span>
+                        <span class="skill-item-percentage fw-bold p-1 px-2 rounded-2">70%</span>
+                    </label>
+                    <progress class="skill-item-progress w-100" value="70" max="100">70%</progress>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</section>

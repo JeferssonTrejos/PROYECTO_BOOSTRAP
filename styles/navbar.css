@@ -34,6 +34,22 @@
   font-weight: 500;
 }
 
+.minimal-dropdown-menu {
+  margin-left: -80px !important;
+  margin-top: 30px !important;
+  min-width: auto !important;
+  background-color: var(--blue-dark) !important;
+}
+
+.minimal-dropdown-menu .dropdown-item {
+  color: var(--color-text);
+}
+
+.minimal-dropdown-menu .dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.076);
+  color: var(--color-text);
+}
+
 .navbar-nav {
   width: 100%;
   display: flex;

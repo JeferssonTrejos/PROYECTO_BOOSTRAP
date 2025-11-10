@@ -1,0 +1,66 @@
+:root {
+  --blue-medium: #0d4d9c;
+  --color-text: #e4e4e4;
+}
+
+.aboutme {
+  hr {
+    margin-bottom: 70px;
+  }
+}
+
+.aboutme-general {
+  margin: 65px auto !important;
+}
+
+.aboutme-general-img img {
+  width: 370px;
+  height: 370px;
+}
+
+.aboutme-general-texts {
+  /*  */
+  .aboutme-general-about-text {
+    background-color: var(--blue-dark);
+    color: var(--blue-light);
+  }
+  /*  */
+  .aboutme-general-name{
+    color: var(--blue-light);
+  }
+}
+
+.experience-item-body {
+  border-left: solid var(--blue-medium);
+
+  .experience-item-info {
+    /*  */
+    .experience-item-date {
+      background-color: var(--blue-medium);
+      color: var(--blue-light);
+    }
+    /*  */
+    .experience-item-type {
+    }
+  }
+
+  .experience-item-place, .experience-item-description{
+    color: var(--color-text);
+  }
+
+}
+
+.aboutme-skill-item {
+  /*  */
+  .skill-item-info {
+    .skill-item-title {
+    }
+    .skill-item-percentage {
+      background-color: var(--blue-dark);
+      color: var(--blue-light);
+    }
+  }
+  /*  */
+  .skill-item-progress {
+  }
+}

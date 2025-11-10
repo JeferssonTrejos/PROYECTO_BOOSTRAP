@@ -1,13 +1,27 @@
 <nav class="navbar navbar-expand-lg navbar-custom">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-            <div class="logo-circle">N</div>
-            <span>Name</span>
-        </a>
+        <div class="navbar-brand">
+            <a class="logo-circle text-decoration-none" id="iconNavbar" href="/">N</a>
+            <div class="dropdown d-inline-block">
+                <span class="cursor-pointer minimal-dropdown-toggler" data-bs-toggle="dropdown" aria-expanded="false"
+                    id="nameDropdownNabvar">
+                    Name
+                </span>
+
+                <ul class="dropdown-menu border-0 shadow-sm p-0 rounded-4 w-auto minimal-dropdown-menu"
+                    aria-labelledby="nameDropdownNabvar">
+                    <li class="dropdown-item py-2 px-5 rounded-top-4" onclick="userFileNameHandler(1);">Jefersson</li>
+                    <li class="dropdown-item py-2 px-5 " onclick="userFileNameHandler(3);">Adonay</li>
+                    <li class="dropdown-item py-2 px-5 " onclick="userFileNameHandler(2);">Michelle</li>
+                    <li class="dropdown-item py-2 px-5 rounded-bottom-4" onclick="userFileNameHandler(4);">Ernesto</li>
+                </ul>
+            </div>
+        </div>
+
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             style="background-color: white; border: none; ">
-            <span class="navbar-toggler-icon "></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">

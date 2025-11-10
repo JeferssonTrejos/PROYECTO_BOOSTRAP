@@ -1,0 +1,55 @@
+{
+    "home": {},
+    "portfolio": {},
+    "aboutme": {
+        "general": {
+            "name": "Adonay Hernandez",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quas suscipit quisquam voluptatem rerum nam illo rem ab esse reiciendis alias libero omnis, fuga eaque consectetur qui eum tempore voluptas!",
+            "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880"
+        },
+        "experienceAndEducation": {
+            "title": "Experiencia & Educación",
+            "items": [
+                {
+                    "type": "EDUCACION",
+                    "year": "2025 - En curso",
+                    "title": "Tercer año de Ing. en Software",
+                    "place": "Universidad De oriente",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                },
+                {
+                    "type": "EDUCACION",
+                    "year": "2024",
+                    "title": "Segundo año de Ing. en Software",
+                    "place": "Universidad De oriente",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                },
+                {
+                    "type": "EDUCACION",
+                    "year": "2023",
+                    "title": "Primer año de Ing. en Software",
+                    "place": "Universidad De oriente",
+                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                }
+            ]
+        },
+        "skills": {
+            "title": "Habilidades",
+            "list": [
+                {
+                    "name": "Vue",
+                    "percentage": 40
+                },
+                {
+                    "name": "Tailwind CSS",
+                    "percentage": 40
+                },
+                {
+                    "name": "Bootstrap",
+                    "percentage": 20
+                }
+            ]
+        }
+    },
+    "contact": {}
+}
