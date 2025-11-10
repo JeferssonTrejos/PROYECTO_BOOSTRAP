@@ -9,6 +9,7 @@ function userFileNameHandler(opt) {
     // 2. Recarga la página desde el servidor
     // window.location.reload();
     route() 
+    loadNavbar();
     // o simplemente location.reload();
 }
 
