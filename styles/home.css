@@ -667,31 +667,6 @@
   font-size: clamp(0.6rem, 1.4vw, 0.75rem);
 }
 
-.home-btn-cv {
-  background: linear-gradient(135deg, var(--accent-bright), var(--cyan-accent));
-  color: var(--primary-dark);
-  border: none;
-  border-radius: 30px;
-  padding: 12px 28px;
-  font-weight: 600;
-  font-size: clamp(0.9rem, 2vw, 1rem);
-  transition: all 0.3s ease;
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 20px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: 0 8px 20px rgba(0, 168, 255, 0.3);
-}
-
-.home-btn-cv:hover {
-  background: linear-gradient(135deg, var(--cyan-accent), var(--accent-bright));
-  color: var(--text-light);
-  transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(0, 168, 255, 0.4);
-}
-
 .home-aboutme-img-circle {
   background: linear-gradient(135deg, var(--accent-bright), var(--cyan-accent));
   box-shadow: 0 15px 40px rgba(0, 104, 204, 0.3);

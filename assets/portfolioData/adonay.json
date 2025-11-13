@@ -4,7 +4,7 @@
     "aboutme": {
         "general": {
             "name": "Adonay Hernandez",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quas suscipit quisquam voluptatem rerum nam illo rem ab esse reiciendis alias libero omnis, fuga eaque consectetur qui eum tempore voluptas!",
+            "description": "Estudiante de Ingeniería en Software con pasión por el desarrollo web y las tecnologías frontend. Me especializo en crear interfaces modernas y responsivas utilizando frameworks como Vue.js, Tailwind CSS y Bootstrap. Siempre en búsqueda de nuevos desafíos y oportunidades para aprender.",
             "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880"
         },
         "experienceAndEducation": {
@@ -14,22 +14,22 @@
                     "type": "EDUCACION",
                     "year": "2025 - En curso",
                     "title": "Tercer año de Ing. en Software",
-                    "place": "Universidad De oriente",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                    "place": "Universidad De Oriente",
+                    "description": "Cursando materias avanzadas de desarrollo de software, arquitectura de sistemas y gestión de proyectos. Enfocado en tecnologías web modernas y metodologías ágiles."
                 },
                 {
                     "type": "EDUCACION",
                     "year": "2024",
                     "title": "Segundo año de Ing. en Software",
-                    "place": "Universidad De oriente",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                    "place": "Universidad De Oriente",
+                    "description": "Profundización en programación orientada a objetos, bases de datos y desarrollo web. Desarrollo de proyectos prácticos utilizando frameworks modernos."
                 },
                 {
                     "type": "EDUCACION",
                     "year": "2023",
                     "title": "Primer año de Ing. en Software",
-                    "place": "Universidad De oriente",
-                    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Delectus eius facilis fugit! Nihil, repellendus sapiente."
+                    "place": "Universidad De Oriente",
+                    "description": "Fundamentos de programación, algoritmos y estructuras de datos. Introducción al desarrollo web con HTML, CSS y JavaScript."
                 }
             ]
         },

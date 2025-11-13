@@ -1,0 +1,91 @@
+{
+  "adonay": {
+    "badge": "Bienvenido a mi portafolio",
+    "title": "Soy <span class=\"home-title-highlight\">Ingeniero de Software</span> Basado en SV",
+    "subtitle": "Creando experiencias digitales hermosas y funcionales que resuelven problemas del mundo real. Especializado en desarrollo web, aplicaciones y transformación digital.",
+    "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
+    "stats": [
+      { "number": "50+", "label": "Proyectos" },
+      { "number": "30+", "label": "Clientes" },
+      { "number": "5+", "label": "Años" }
+    ],
+    "aboutme": {
+      "label": "— Sobre mí",
+      "name": "Adonay Hernández",
+      "description": "Soy un ingeniero de software apasionado por crear soluciones innovadoras que impactan positivamente. Con más de 5 años de experiencia, he trabajado en proyectos desafiantes utilizando tecnologías modernas. Mi enfoque se centra en escribir código limpio, escalable y mantenible que proporcione valor real a los clientes.",
+      "imageUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=880",
+      "statsAbout": [
+        { "number": "50+", "label": "Proyectos completados" },
+        { "number": "30+", "label": "Clientes satisfechos" },
+        { "number": "5+", "label": "Años de experiencia" }
+      ]
+    }
+  },
+  "ernesto": {
+    "badge": "Bienvenido a mi portafolio",
+    "title": "Soy <span class=\"home-title-highlight\">Desarrollador Full Stack</span> Basado en SV",
+    "subtitle": "Especializado en crear soluciones web completas y robustas. Desde el frontend hasta el backend, construyo aplicaciones que generan impacto real en los negocios.",
+    "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
+    "stats": [
+      { "number": "45+", "label": "Proyectos" },
+      { "number": "25+", "label": "Clientes" },
+      { "number": "6+", "label": "Años" }
+    ],
+    "aboutme": {
+      "label": "— Sobre mí",
+      "name": "Ernesto González",
+      "description": "Soy un desarrollador full stack con 6 años de experiencia creando aplicaciones web robustas y escalables. Domino tanto frontend como backend, lo que me permite entender el panorama completo del desarrollo. Me apasiona resolver problemas complejos y trabajar con equipos multidisciplinarios para entregar soluciones de calidad.",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=880",
+      "statsAbout": [
+        { "number": "45+", "label": "Proyectos completados" },
+        { "number": "25+", "label": "Clientes satisfechos" },
+        { "number": "6+", "label": "Años de experiencia" }
+      ]
+    }
+  },
+  "jefersson": {
+    "badge": "Bienvenido a mi portafolio",
+    "title": "Soy <span class=\"home-title-highlight\">Desarrollador Frontend</span> Basado en SV",
+    "subtitle": "Transformo diseños en experiencias interactivas increíbles. Experto en tecnologías modernas para crear interfaces rápidas, accesibles y hermosas.",
+    "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
+    "stats": [
+      { "number": "60+", "label": "Proyectos" },
+      { "number": "35+", "label": "Clientes" },
+      { "number": "4+", "label": "Años" }
+    ],
+    "aboutme": {
+      "label": "— Sobre mí",
+      "name": "Jefersson Trejos",
+      "description": "Soy un desarrollador frontend especializado en crear experiencias de usuario excepcionales. Con 4 años de experiencia, transformo diseños en interfaces interactivas y responsivas. Me apasiona la calidad del código, la accesibilidad web y las mejores prácticas de desarrollo frontend.",
+      "imageUrl": "https://images.unsplash.com/photo-1519085360771-9852ef158dba?q=80&w=880",
+      "statsAbout": [
+        { "number": "60+", "label": "Proyectos completados" },
+        { "number": "35+", "label": "Clientes satisfechos" },
+        { "number": "4+", "label": "Años de experiencia" }
+      ]
+    }
+  },
+  "michelle": {
+    "badge": "¡Bienvenida a mi portafolio!",
+    "title": "Soy <span class=\"home-title-highlight\">Diseñadora de Productos</span> Basada en SV",
+    "subtitle": "Creando experiencias digitales hermosas y funcionales que transforman negocios. Especializada en diseño UI/UX, investigación de usuarios y estrategia digital con enfoque en inclusión.",
+    "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=880",
+    "stats": [
+      { "number": "600+", "label": "Proyectos" },
+      { "number": "150+", "label": "Clientes" },
+      { "number": "18+", "label": "Años" }
+    ],
+    "aboutme": {
+      "label": "— Sobre mí",
+      "name": "Michelle Jiménez",
+      "description": "Soy una diseñadora de productos apasionada por crear soluciones digitales que transforman negocios. Con 18 años de experiencia, he liderado estrategias de diseño integral en marcas líderes de América Latina. Mi enfoque centrado en el usuario garantiza que cada proyecto sea visualmente atractivo, funcional, accesible e inclusivo.",
+      "imageUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=880",
+      "statsAbout": [
+        { "number": "600+", "label": "Proyectos completados" },
+        { "number": "150+", "label": "Clientes satisfechos" },
+        { "number": "18+", "label": "Años de experiencia" }
+      ]
+    }
+  }
+}
+
