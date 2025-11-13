@@ -35,8 +35,6 @@
 }
 
 .minimal-dropdown-menu {
-  margin-left: -80px !important;
-  margin-top: 30px !important;
   min-width: auto !important;
   background-color: var(--blue-dark) !important;
 }

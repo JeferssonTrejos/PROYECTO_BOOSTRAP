@@ -78,7 +78,7 @@ export function renderTitleName(data) {
     try {
         // Elementos
         const navbarIcon = document.getElementById('iconNavbar');
-        const navbarTitle = document.getElementById('nameDropdownNabvar');
+        const navbarTitle = document.getElementById('nameNabvar');
 
         // Separara el nombre y apellido
         const userName = data.aboutme.general.name.split(" ")
