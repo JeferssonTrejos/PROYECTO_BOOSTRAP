@@ -1,13 +1,14 @@
-body {
+
+.formulario-page {
   background: linear-gradient(180deg, #06284c 0%, #010623 100%);
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; 
-  margin: 0; 
 }
 
-.form-container {
+/* Caja del formulario */
+.formulario {
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(15px);
   padding: 80px 35px;
@@ -16,17 +17,19 @@ body {
   width: 420px;
 }
 
-.form-control:focus {
+/* Campos de texto */
+.formulario .campo:focus {
   border-color: #83cef7;
   box-shadow: none;
   outline: none;
 }
 
-::placeholder {
+.formulario ::placeholder {
   color: #aaaaaa !important;
 }
 
-.icon {
+/* Íconos */
+.formulario .icono {
   position: absolute;
   right: 15px;
   top: 50%;
@@ -35,16 +38,22 @@ body {
   cursor: pointer;
 }
 
-.form-container a {
+/* Enlace de términos */
+.formulario .terminos {
   color: #ffffff;
   text-decoration: none;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, #3471ff, #56a4f2); 
+/* Botón personalizado */
+.formulario .boton-enviar {
+  background: linear-gradient(135deg, #3471ff, #56a4f2);
   border: none;
   font-weight: bold;
   transition: background 0.3s ease;
   color: #fff;
   cursor: pointer;
+}
+
+.formulario .boton-enviar:hover {
+  background: linear-gradient(135deg, #56a4f2, #3471ff);
 }
