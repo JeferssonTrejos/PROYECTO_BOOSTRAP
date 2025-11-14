@@ -1,5 +1,15 @@
 {
-    "home": {},
+    "home": {
+        "name": "Jefersson Trejos",
+        "title": "Ingeniero de Software",
+        "subtitle": "Apasionado por la innovación tecnológica y la creación de soluciones que impacten positivamente. Experto en arquitectura de software y metodologías ágiles.",
+        "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
+        "stats": {
+            "projects": "40+",
+            "clients": "25+",
+            "years": "5+"
+        }
+    },
     "portfolio": {},
     "aboutme": {
         "general": {

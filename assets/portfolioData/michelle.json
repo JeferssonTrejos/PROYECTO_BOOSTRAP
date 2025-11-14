@@ -1,5 +1,15 @@
 {
-    "home": {},
+    "home": {
+        "name": "Michelle Jimenez",
+        "title": "Especialista en UX/UI",
+        "subtitle": "Creo experiencias digitales intuitivas y hermosas que conectan con los usuarios. Especializada en investigación de usuarios y diseño centrado en el usuario.",
+        "imageUrl": "https://plus.unsplash.com/premium_vector-1721131163044-dec629b1f4f9?q=80&w=880",
+        "stats": {
+            "projects": "35+",
+            "clients": "18+",
+            "years": "4+"
+        }
+    },
     "portfolio": {},
     "aboutme": {
         "general": {

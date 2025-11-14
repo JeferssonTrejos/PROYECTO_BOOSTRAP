@@ -1,5 +1,15 @@
 {
-    "home": {},
+    "home": {
+        "name": "Adonay Hernandez",
+        "title": "Diseñador de Productos",
+        "subtitle": "Creando experiencias digitales hermosas y funcionales que resuelven problemas del mundo real. Especializado en diseño UI/UX, diseño web y transformación digital.",
+        "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
+        "stats": {
+            "projects": "25+",
+            "clients": "15+",
+            "years": "2+"
+        }
+    },
     "portfolio": {},
     "aboutme": {
         "general": {
