@@ -1,0 +1,70 @@
+.portfolio-section-subtitle {
+  color: #64ffda;
+  letter-spacing: 2px;
+}
+
+.portfolio-project-card {
+  background-color: #112240 !important;
+  border: 1px solid #233554;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.portfolio-project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(100, 255, 218, 0.1);
+}
+
+.portfolio-project-img {
+  background-color: #1d2d50;
+}
+
+.portfolio-project-img img,
+.portfolio-project-img i {
+  height: 250px;
+}
+
+.portfolio-badge-custom {
+  background-color: #64ffda;
+  color: #0a192f !important;
+}
+
+.portfolio-btn-view-more {
+  background-color: transparent;
+  border: 2px solid #64ffda !important;
+  color: #64ffda !important;
+  transition: all 0.3s ease;
+}
+
+.portfolio-btn-view-more:hover {
+  background-color: rgba(100, 255, 218, 0.1) !important;
+  color: #64ffda !important;
+}
+
+/*  */
+.portfolio-viewdemo {
+  background-color: #64ffda !important;
+  color: #0a192f !important;
+}
+
+.portfolio-viewdemo:hover {
+  background-color: #52e3c2 !important;
+  color: #0a192f !important;
+}
+
+.portfolio-modal-content {
+  background-color: #112240 !important;
+  border: 1px solid #233554 !important;
+}
+
+.portfolio-modal-header {
+  border-bottom: 1px solid #233554 !important;
+}
+
+.portfolio-modal-title {
+  color: #ccd6f6 !important;
+}
+
+.portfolio-btn-close {
+  filter: invert(1) !important;
+}

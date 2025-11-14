@@ -10,7 +10,31 @@
             "years": "2+"
         }
     },
-    "portfolio": {},
+    "portfolio": {
+        "projects": [
+            {
+                "id": 4,
+                "title": "Coffee Shop Mobile App Landing Page",
+                "description": "Página de destino moderna para aplicación de cafetería con enfoque en conversión de usuarios.",
+                "image": "https://placehold.co/600x300",
+                "badges": [
+                    "UI/UX Design",
+                    "Web Design",
+                    "Wireframe"
+                ],
+                "detailedDescription": "Página de destino moderna y atractiva diseñada para promocionar la aplicación de cafetería. Incluye información detallada sobre características, beneficios y proceso de descarga.",
+                "features": [
+                    "Hero section impactante con CTA",
+                    "Sección de características con iconografía",
+                    "Galería de capturas de la app",
+                    "Testimonios de clientes satisfechos",
+                    "Footer con enlaces a redes sociales"
+                ],
+                "technologies": "HTML5, CSS3, Bootstrap 5, JavaScript, Scroll Animations",
+                "demoLink": "#"
+            }
+        ]
+    },
     "aboutme": {
         "general": {
             "name": "Adonay Hernandez",

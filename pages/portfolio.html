@@ -1,7 +1,206 @@
-<div>
-    <!-- porfolio -->
-    <h1>My Portfolio</h1>
-    <p>Here are some of my projects:</p>
+<div class="container py-5">
+    <div class="mb-5">
+        <p class="portfolio-section-subtitle mb-2">— MI TRABAJO</p>
+        <h2 class="display-4 fw-bold">Proyectos Recientes</h2>
+    </div>
 
-    <button class="btn btn-danger r p-3 m-1">Hello world</button>
+    <div class="row g-4" id="portfolio-projects-container">
+        <!-- Proyecto 1 -->
+        <div class="portfolio-item col-lg-4 col-md-6" >
+            <!-- Card 1 -->
+            <div class="card portfolio-project-card rounded-4">
+                <div class="portfolio-project-img d-flex align-items-center justify-content-center">
+                    <!-- <i class="bi bi-image" style="font-size: 4rem; color: #64ffda;"></i> -->
+                    <img class="object-fit-cover" src="https://placehold.co/600x300" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="portfolio-badge-container mb-3 d-flex">
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">App Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                    </div>
+                    <h5 class="card-title text-white mb-3">Beauty Product – Ecommerce Mobile App</h5>
+                    <p class="card-text">Aplicación móvil para comercio electrónico de productos de belleza con
+                        interfaz intuitiva y moderna.</p>
+                    <button class="btn portfolio-btn-view-more rounded-5 py-2 px-4 " data-bs-toggle="modal"
+                        data-bs-target="#modalA">
+                        Ver más <i class="bi bi-arrow-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Modal 1 -->
+            <div class="modal fade" id="modalA" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="portfolio-modal-content modal-content">
+                        <div class="portfolio-modal-heade modal-header">
+                            <h5 class="portfolio-modal-title modal-title">Beauty Product – Ecommerce Mobile App</h5>
+                            <button type="button" class="portfolio-btn-close btn-close"
+                                data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="portfolio-badge-container mb-4 d-flex">
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">App Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                            </div>
+                            <h6 class="text-white mb-3">Descripción del Proyecto</h6>
+                            <p>Desarrollo completo de una aplicación móvil de comercio electrónico especializada en
+                                productos de
+                                belleza. La aplicación cuenta con un sistema de navegación intuitivo, carrito de
+                                compras
+                                optimizado, y proceso de checkout simplificado.</p>
+
+                            <h6 class="text-white mb-3 mt-4">Características Principales</h6>
+                            <ul>
+                                <li>Catálogo de productos con filtros avanzados</li>
+                                <li>Sistema de recomendaciones personalizado</li>
+                                <li>Integración de pasarela de pagos</li>
+                                <li>Seguimiento de pedidos en tiempo real</li>
+                                <li>Sistema de reviews y calificaciones</li>
+                            </ul>
+
+                            <h6 class="text-white mb-3 mt-4">Tecnologías Utilizadas</h6>
+                            <p>Figma, Adobe XD, Prototyping, User Research, Wireframing</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary fw-semibold py-2 px-4 rounded-5"
+                                data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button"
+                                class="btn portfolio-viewdemo border-0 fw-semibold py-2 px-4 rounded-5">Ver
+                                Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 2 -->
+        <div class="portfolio-item col-lg-4 col-md-6">
+            <!-- Card -->
+            <div class="card portfolio-project-card rounded-4">
+                <div class="portfolio-project-img d-flex align-items-center justify-content-center">
+                    <img src="https://placehold.co/600x300" alt="">
+                    <!-- <i class="bi bi-image" style="font-size: 4rem; color: #64ffda;"></i> -->
+                </div>
+                <div class="card-body">
+                    <div class="portfolio-badge-container mb-3 d-flex">
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Web Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                    </div>
+                    <h5 class="card-title text-white mb-3">Beauty Product Mobile App Landing Page</h5>
+                    <p class="card-text">Landing page responsive para promocionar la aplicación móvil con diseño
+                        atractivo y conversional.</p>
+                    <button class="btn portfolio-btn-view-more rounded-5 py-2 px-4" data-bs-toggle="modal"
+                        data-bs-target="#modalB">
+                        Ver más <i class="bi bi-arrow-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Modal 2 -->
+            <div class="modal fade" id="modalB" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="portfolio-modal-content modal-content ">
+                        <div class="portfolio-modal-header modal-header">
+                            <h5 class="portfolio-modal-title modal-title">Beauty Product Mobile App Landing Page</h5>
+                            <button type="button" class="portfolio-btn-close btn-close"
+                                data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="portfolio-badge-container mb-3 d-flex">
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Web Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                            </div>
+                            <h6 class="text-white mb-3">Descripción del Proyecto</h6>
+                            <p>Landing page responsive diseñada para maximizar las conversiones y descargas de la
+                                aplicación
+                                móvil. Incluye secciones de características, testimonios, y llamadas a la acción
+                                estratégicamente ubicadas.</p>
+
+                            <h6 class="text-white mb-3 mt-4">Características Principales</h6>
+                            <ul>
+                                <li>Diseño completamente responsivo</li>
+                                <li>Optimización SEO</li>
+                                <li>Animaciones suaves y atractivas</li>
+                                <li>Sección de testimonios de usuarios</li>
+                                <li>Botones de descarga para iOS y Android</li>
+                            </ul>
+
+                            <h6 class="text-white mb-3 mt-4">Tecnologías Utilizadas</h6>
+                            <p>HTML5, CSS3, Bootstrap, JavaScript, Responsive Design</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn portfolio-viewdemo">Ver Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 3 -->
+        <div class="portfolio-item col-lg-4 col-md-6">
+            <!-- Card 3 -->
+            <div class="card portfolio-project-card rounded-4">
+                <div class="portfolio-project-img d-flex align-items-center justify-content-center">
+                    <img src="https://placehold.co/600x300" alt="">
+                </div>
+                <div class="card-body">
+                    <div class="portfolio-badge-container mb-3 d-flex">
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">App Design</span>
+                        <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                    </div>
+                    <h5 class="card-title text-white mb-3">Coffee Shop App – Ordering Solution</h5>
+                    <p class="card-text">Solución integral para pedidos de café con sistema de personalización y
+                        seguimiento en tiempo real.</p>
+                    <button class="btn portfolio-btn-view-more rounded-5 py-2 px-4" data-bs-toggle="modal"
+                        data-bs-target="#modalC">
+                        Ver más <i class="bi bi-arrow-right ms-2"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Modal 3 -->
+            <div class="modal fade" id="modalC" tabindex="-1">
+                <div class="modal-dialog modal-lg">
+                    <div class="portfolio-modal-content modal-content ">
+                        <div class="portfolio-modal-header modal-header">
+                            <h5 class="portfolio-modal-title modal-title">Coffee Shop App – Ordering Solution</h5>
+                            <button type="button" class="portfolio-btn-close btn-close"
+                                data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="portfolio-badge-container mb-3 d-flex">
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">UI/UX Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">App Design</span>
+                                <span class="badge portfolio-badge-custom fw-semibold p-2 my-1 me-2">Wireframe</span>
+                            </div>
+                            <h6 class="text-white mb-3">Descripción del Proyecto</h6>
+                            <p>Aplicación móvil completa para pedidos de café con sistema de personalización
+                                avanzado. Los
+                                usuarios pueden personalizar sus bebidas, programar pedidos y recoger sin esperas.
+                            </p>
+
+                            <h6 class="text-white mb-3 mt-4">Características Principales</h6>
+                            <ul>
+                                <li>Sistema de pedidos con personalización completa</li>
+                                <li>Programa de lealtad y recompensas</li>
+                                <li>Ubicación de tiendas cercanas con GPS</li>
+                                <li>Notificaciones push cuando el pedido está listo</li>
+                                <li>Historial de pedidos y favoritos</li>
+                            </ul>
+
+                            <h6 class="text-white mb-3 mt-4">Tecnologías Utilizadas</h6>
+                            <p>Sketch, InVision, User Flows, Prototyping, Mobile Design</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn portfolio-viewdemo">Ver Demo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

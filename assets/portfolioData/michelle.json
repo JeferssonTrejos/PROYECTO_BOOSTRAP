@@ -10,7 +10,31 @@
             "years": "4+"
         }
     },
-    "portfolio": {},
+    "portfolio": {
+        "projects": [
+            {
+                "id": 6,
+                "title": "Dashboard de Analytics Empresarial",
+                "description": "Panel de control intuitivo para visualización de datos y métricas empresariales en tiempo real.",
+                "image": "https://placehold.co/600x300",
+                "badges": [
+                    "UI/UX Design",
+                    "Dashboard",
+                    "Analytics"
+                ],
+                "detailedDescription": "Panel de control empresarial para visualización de datos en tiempo real. Permite a los usuarios monitorear KPIs, generar reportes y tomar decisiones basadas en datos.",
+                "features": [
+                    "Visualización de datos con gráficos interactivos",
+                    "Dashboard personalizable por usuario",
+                    "Generación de reportes en PDF/Excel",
+                    "Filtros avanzados y comparativas",
+                    "Notificaciones de alertas importantes"
+                ],
+                "technologies": "Figma, Chart.js, Data Visualization, UX Research, Prototyping",
+                "demoLink": "#"
+            }
+        ]
+    },
     "aboutme": {
         "general": {
             "name": "Michelle Jimenez",

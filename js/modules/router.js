@@ -1,7 +1,7 @@
 // modules/router.js
 import { routes, getPath } from '../utils/helpers.js';
 import { getUserFileName } from './store.js';
-import { renderAboutMeData, renderTitleName, renderHomeData } from './renderer.js';
+import { renderAboutMeData, renderTitleName, renderPortfolioData, renderHomeData } from './renderer.js';
 
 /**
  *    
@@ -81,6 +81,7 @@ export const loadContent = async () => {
 
                 case "/projects":
                     // console.log("Cargando data projects");
+                    renderPortfolioData(data.portfolio)
                     break;
 
                 case "/about":

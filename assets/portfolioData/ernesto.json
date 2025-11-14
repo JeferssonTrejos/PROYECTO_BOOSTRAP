@@ -10,7 +10,32 @@
             "years": "3+"
         }
     },
-    "portfolio": {},
+    "portfolio": {
+        "projects": [
+        
+            {
+                "id": 5,
+                "title": "Portafolio Profesional Responsivo",
+                "description": "Sitio web personal completamente responsivo desarrollado con Bootstrap y mejores prácticas.",
+                "image": "https://placehold.co/600x300",
+                "badges": [
+                    "Web Design",
+                    "Development",
+                    "Bootstrap"
+                ],
+                "detailedDescription": "Portafolio web profesional completamente responsivo desarrollado con Bootstrap. Incluye secciones de proyectos, habilidades, experiencia y formulario de contacto funcional.",
+                "features": [
+                    "Diseño responsivo para todos los dispositivos",
+                    "Navegación fluida con scroll suave",
+                    "Galería de proyectos con modals",
+                    "Formulario de contacto con validación",
+                    "Optimización de rendimiento y SEO"
+                ],
+                "technologies": "HTML5, CSS3, Bootstrap 5, JavaScript, Git, GitHub Pages",
+                "demoLink": "#"
+            }
+        ]
+    },
     "aboutme": {
         "general": {
             "name": "Ernesto",

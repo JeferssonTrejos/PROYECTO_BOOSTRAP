@@ -10,7 +10,113 @@
             "years": "5+"
         }
     },
-    "portfolio": {},
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Cygnus: Landing Page Educativa Responsiva",
+                "description": "Desarrollo completo de una landing page moderna y altamente responsiva para un proyecto educativo o universitario.",
+                "image": "https://raw.githubusercontent.com/JeferssonTrejos/test-files/refs/heads/main/Screenshot%202025-11-14%20at%2001-39-27%20Document.png",
+                "badges": [
+                    "Desarrollo Frontend",
+                    "Diseño Responsivo",
+                    "Maquetación Web"
+                ],
+                "detailedDescription": "Proyecto de maquetación web enfocado en la **experiencia de usuario (UX)** y la **adaptabilidad móvil**. Se implementó un diseño limpio y moderno con animaciones sutiles, logrando una carga rápida y una navegación intuitiva. Es una demostración de dominio de HTML5 y CSS3 avanzados para crear interfaces atractivas y funcionales.",
+                "features": [
+                    "Diseño completamente responsivo (Mobile-First)",
+                    "Estructura semántica optimizada para SEO",
+                    "Formulario de contacto funcional (simulado o integrado con JS)",
+                    "Navegación 'sticky' y desplazamiento suave (smooth scrolling)",
+                    "Uso de variables CSS para fácil personalización de marca"
+                ],
+                "technologies": "HTML5, CSS3, JavaScript (ES6), Git",
+                "demoLink": "https://github.com/JeferssonTrejos/PROYECTO-LAB---PARCIAL-2.git"
+            },
+            {
+                "title": "Wood Inventary Center (WIC): Sistema de Gestión de Inventario de Maderera",
+                "description": "Aplicación robusta de gestión de inventario diseñada para el control y seguimiento en tiempo real de materiales y productos madereros.",
+                "image": "https://placehold.co/600x300",
+                "badges": [
+                    "Desarrollo Backend",
+                    "CRUD Application",
+                    "Gestión Empresarial"
+                ],
+                "detailedDescription": "Desarrollo completo de un Sistema de Gestión de Inventario (IMS) enfocado en la industria maderera. El proyecto se centra en la eficiencia del **flujo de trabajo de almacén**, permitiendo un control exhaustivo de entradas, salidas y existencias. Utiliza una arquitectura orientada a la base de datos para garantizar la integridad y la disponibilidad inmediata de los datos críticos de stock. Ideal para optimizar costos y prevenir quiebres de inventario.",
+                "features": [
+                    "Módulo completo de operaciones CRUD (Crear, Leer, Actualizar, Eliminar) de productos",
+                    "Seguimiento de existencias y alertas de stock mínimo configurables",
+                    "Sistema de consulta avanzada con filtros por tipo de material, proveedor y ubicación",
+                    "Generación de reportes de inventario en formatos exportables (PDF y Excel)",
+                    "Registro de historial de movimientos (trazabilidad de entradas y salidas)"
+                ],
+                "technologies": "SQLite, Electron.js, React Git, Tailwind, Principios SOLID",
+                "demoLink": "https://github.com/JeferssonTrejos/Wood-Inventary-Center-Project.git"
+            },
+            {
+                "title": "FutureCode UI: Aplicación Web de apredizaje con IA",
+                "description": "Desarrollo del Frontend (UI) de una aplicación web, diseñada para interactuar con la API de Backend a través de servicios RESTful.",
+                "image": "https://raw.githubusercontent.com/JeferssonTrejos/test-files/refs/heads/main/Screenshot%202025-11-14%20at%2001-44-40%20Future%20Code.png",
+                "badges": [
+                    "Desarrollo Frontend",
+                    "Single Page Application (SPA)",
+                    "Consumo de API"
+                ],
+                "detailedDescription": "Implementación de la interfaz de usuario (UI) bajo una arquitectura desacoplada, utilizando tecnologías modernas de desarrollo frontend. El enfoque principal es crear una **experiencia de usuario fluida y reactiva**, gestionando el estado de la aplicación y realizando peticiones asíncronas para el consumo de datos desde la API. Este proyecto demuestra habilidades en la construcción de componentes reutilizables y rutas dinámicas.",
+                "features": [
+                    "Diseño de interfaz de usuario enfocado en UX/UI",
+                    "Gestión de estado e interacciones del usuario (Component-based architecture)",
+                    "Consumo de endpoints de la API con Axios",
+                    "Manejo de formularios y validación de datos en el cliente",
+                    "Implementación de seguridad básica y gestión de sesiones/tokens"
+                ],
+                "technologies": "React, Tailwind CSS, JavaScript, RESTful Service Consumption",
+                "demoLink": "https://futurecode-ui.vercel.app/"
+            },
+            {
+                "title": "AutoVLSM: Calculadora de Subneteo Eficiente",
+                "description": "Herramienta de utilidad de red para automatizar el cálculo y la asignación de subredes de longitud variable (VLSM).",
+                "image": "https://raw.githubusercontent.com/JeferssonTrejos/test-files/refs/heads/main/Screenshot%202025-11-14%20at%2002-09-32%20AutoVLSM.png",
+                "badges": [
+                    "Networking",
+                    "Automatización de Redes",
+                    "Utilidad de Sistema"
+                ],
+                "detailedDescription": "Desarrollo de una solución de software diseñada para ingenieros de redes y administradores de TI. El proyecto **'AutoVLSM'** resuelve el problema de la asignación manual de subredes, un proceso que consume tiempo y es crítico para la salud de la red. La herramienta toma un bloque de direcciones IP principal y una lista de requisitos de hosts por departamento o subred, y **calcula automáticamente el esquema de direccionamiento más eficiente**, minimizando el desperdicio de IPs.",
+                "features": [
+                    "Cálculo automático de máscaras de subred (VLSM)",
+                    "Optimización del espacio de direccionamiento IP",
+                    "Generación de rangos de red, direcciones de broadcast y gateways",
+                    "Manejo de múltiples requisitos de subredes de forma simultánea",
+                    "Interfaz para ingreso de red principal y lista de hosts"
+                ],
+                "technologies": "Python/Java (Lógica de Algoritmos), Teoría de Redes (Subnetting, VLSM, CIDR), Git, Pruebas Unitarias",
+                "demoLink": "https://autovlsm.vercel.app/"
+            },
+            {
+                "title": "Panadería El Rosario: E-commerce con Vue.js",
+                "description": "Plataforma de e-commerce (SPA) completamente funcional para una panadería, con catálogo, carrito y gestión de usuarios.",
+                "image": "https://raw.githubusercontent.com/JeferssonTrejos/test-files/refs/heads/main/Screenshot 2025-11-14 at 02-03-32 Panadería El Rosario.png",
+                "badges": [
+                    "Vue.js",
+                    "E-commerce",
+                    "Single Page App (SPA)",
+                    "Frontend"
+                ],
+                "detailedDescription": "Desarrollo de una Single Page Application (SPA) para 'Panadería El Rosario', implementando una tienda en línea completa. El proyecto se enfoca en una **experiencia de usuario (UX) fluida y reactiva**, permitiendo a los clientes explorar el catálogo, añadir productos al carrito y gestionar su cuenta sin recargar la página. Demuestra un fuerte dominio del ecosistema Vue.js para crear aplicaciones frontend robustas y modernas.",
+                "features": [
+                    "Catálogo de productos dinámico con detalles y categorías",
+                    "Sistema de carrito de compras funcional con gestión de estado con Pinia",
+                    "Módulo de autenticación de usuarios (Login y Registro)",
+                    "Navegación fluida entre vistas implementada con Vue Router",
+                    "Diseño responsivo adaptado a dispositivos móviles y de escritorio",
+                    "Despliegue y hosting en Netlify"
+                ],
+                "technologies": "Vue.js, Vue Router, Pinia, JavaScript (ES6+), HTML5, SASS/CSS3, Netlify",
+                "demoLink": "https://github.com/JeferssonTrejos/CW-project/tree/main/Project_with_vue",
+                "livePreview": "https://panaderiaelrosariov2.netlify.app/"
+            }
+        ]
+    },
     "aboutme": {
         "general": {
             "name": "Jefersson Trejos",

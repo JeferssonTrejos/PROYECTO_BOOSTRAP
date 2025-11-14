@@ -94,6 +94,207 @@ export function renderHomeData(homeData, aboutmeData) {
 }
 
 /**
+ * Renderiza los datos de la sección "Portfolio" actualizando proyectos dinámicamente.
+ * @param {object} portfolioData - El objeto de datos de la sección Portfolio.
+ */
+export function renderPortfolioData(portfolioData) {
+    if (!portfolioData || !portfolioData.projects) {
+        console.error("No se recibieron datos para renderizar Portfolio.");
+        return;
+    }
+
+    const container = document.getElementById('portfolio-projects-container');
+    if (!container) {
+        console.error("No se encontró el contenedor de proyectos.");
+        return;
+    }
+
+    // Obtener la plantilla del primer proyecto (card + modal)
+    const projectTemplate = container.querySelector('.portfolio-item');
+    if (!projectTemplate) {
+        console.error("No se encontró la plantilla de proyecto.");
+        return;
+    }
+
+    try {
+        portfolioData.projects.forEach((project, index) => {
+            const clone = projectTemplate.cloneNode(true);
+
+            // --- CARD ---
+            // Actualizar imagen
+            const cardImg = clone.querySelector('.portfolio-project-img img');
+            if (cardImg) {
+                cardImg.src = project.image;
+                cardImg.alt = project.title;
+            }
+
+            // Actualizar badges
+            const badgesContainer = clone.querySelector('.portfolio-badge-container ');
+            if (badgesContainer) {
+                const badgeTemplate = badgesContainer.querySelector('.badge');
+                if (badgeTemplate) {
+                    // Limpiar badges anteriores (mantener solo la plantilla)
+                    const allBadges = badgesContainer.querySelectorAll('.badge');
+                    allBadges.forEach((badge, idx) => {
+                        if (idx > 0) badge.remove();
+                    });
+
+                    project.badges.forEach((badgeText, idx) => {
+                        if (idx === 0) {
+                            // Reutilizar el primer badge (plantilla)
+                            badgeTemplate.textContent = badgeText;
+                        } else {
+                            // Clonar para los demás
+                            const badgeClone = badgeTemplate.cloneNode(true);
+                            badgeClone.textContent = badgeText;
+                            badgesContainer.appendChild(badgeClone);
+                        }
+                    });
+                }
+            }
+
+            // Actualizar título
+            const cardTitle = clone.querySelector('.card-title');
+            if (cardTitle) {
+                cardTitle.textContent = project.title;
+            }
+
+            // Actualizar descripción
+            const cardText = clone.querySelector('.card-text');
+            if (cardText) {
+                cardText.textContent = project.description;
+            }
+
+            // Actualizar botón modal (ID único)
+            const modalButton = clone.querySelector('[data-bs-toggle="modal"]');
+            const modalId = `modal${index+1}`;
+            if (modalButton) {
+                modalButton.setAttribute('data-bs-target', `#${modalId}`);
+            }
+
+            // --- MODAL ---
+            const modal = clone.querySelector('.modal');
+            if (modal) {
+                modal.id = modalId;
+
+                // Actualizar título del modal
+                const modalTitle = modal.querySelector('.portfolio-modal-title');
+                if (modalTitle) {
+                    modalTitle.textContent = project.title;
+                }
+
+                // Actualizar badges del modal
+                const modalBadgesContainer = modal.querySelector('.portfolio-badge-container');
+                if (modalBadgesContainer) {
+                    const modalBadgeTemplate = modalBadgesContainer.querySelector('.badge');
+                    if (modalBadgeTemplate) {
+                        // Limpiar badges anteriores (mantener solo la plantilla)
+                        const allModalBadges = modalBadgesContainer.querySelectorAll('.badge');
+                        allModalBadges.forEach((badge, idx) => {
+                            if (idx > 0) badge.remove();
+                        });
+
+                        project.badges.forEach((badgeText, idx) => {
+                            if (idx === 0) {
+                                // Reutilizar el primer badge (plantilla)
+                                modalBadgeTemplate.textContent = badgeText;
+                            } else {
+                                // Clonar para los demás
+                                const badgeClone = modalBadgeTemplate.cloneNode(true);
+                                badgeClone.textContent = badgeText;
+                                modalBadgesContainer.appendChild(badgeClone);
+                            }
+                        });
+                    }
+                }
+
+                // Actualizar descripción detallada
+                const modalDescription = modal.querySelector('.modal-body p');
+                if (modalDescription) {
+                    modalDescription.textContent = project.detailedDescription;
+                }
+
+                // Actualizar características
+                const modalFeaturesList = modal.querySelector('.modal-body ul');
+                if (modalFeaturesList) {
+                    const featureTemplate = modalFeaturesList.querySelector('li');
+                    if (featureTemplate) {
+                        // Limpiar features anteriores (mantener solo la plantilla)
+                        const allFeatures = modalFeaturesList.querySelectorAll('li');
+                        allFeatures.forEach((feature, idx) => {
+                            if (idx > 0) feature.remove();
+                        });
+
+                        project.features.forEach((featureText, idx) => {
+                            if (idx === 0) {
+                                // Reutilizar el primer li (plantilla)
+                                featureTemplate.textContent = featureText;
+                            } else {
+                                // Clonar para los demás
+                                const featureClone = featureTemplate.cloneNode(true);
+                                featureClone.textContent = featureText;
+                                modalFeaturesList.appendChild(featureClone);
+                            }
+                        });
+                    }
+                }
+
+                // Actualizar tecnologías
+                const modalTechnologies = modal.querySelectorAll('.modal-body p')[1];
+                if (modalTechnologies) {
+                    modalTechnologies.textContent = project.technologies;
+                }
+
+                // Actualizar botón de demo
+                const demoButton = modal.querySelector('.portfolio-viewdemo');
+                if (demoButton && project.demoLink) {
+                    demoButton.onclick = () => {
+                        if (project.demoLink !== '#') {
+                            window.open(project.demoLink, '_blank');
+                        } else {
+                            alert('Demo no disponible');
+                        }
+                    };
+                }
+            }
+
+            // Mostrar el clon (la plantilla estará oculta)
+            // clone.style.display = '';
+
+            // Insertar el proyecto clonado
+            container.appendChild(clone);
+        });
+
+        // Ocultar la plantilla original
+        // projectTemplate.style.display = 'none';
+
+        console.log(`✅ Se renderizaron ${portfolioData.projects.length} proyectos correctamente.`);
+
+    } catch (error) {
+        console.error("Error al renderizar proyectos:", error.message);
+    }
+}
+
+/**
+ * Función auxiliar para cargar datos desde un archivo JSON
+ * @param {string} jsonPath - Ruta del archivo JSON
+ * @returns {Promise<object>} - Datos del JSON
+ */
+export async function loadPortfolioJSON(jsonPath) {
+    try {
+        const response = await fetch(jsonPath);
+        if (!response.ok) {
+            throw new Error(`Error al cargar JSON: ${response.status}`);
+        }
+        const data = await response.json();
+        return data;
+    } catch (error) {
+        console.error("Error cargando el JSON:", error.message);
+        return null;
+    }
+}
+
+/**
  * Renderiza los datos de la sección "About Me" usando plantillas clonadas.
  * @param {object} data - El objeto de datos de la sección AboutMe.
  */
@@ -123,13 +324,13 @@ export function renderAboutMeData(data) {
     // --- Cargar Data Experiencia/Educación ---
     try {
         const experieceComponent = experieceSection.querySelector(".aboutme-experience-item");
-        
+
         // Limpiar elementos clonados anteriores (mantener solo la plantilla)
         const allItems = experieceSection.querySelectorAll(".aboutme-experience-item");
         allItems.forEach((item, index) => {
             if (index > 0) item.remove(); // Elimina todos excepto el primero (plantilla)
         });
-        
+
         data.experienceAndEducation.items.forEach(item => {
             const clone = experieceComponent.cloneNode(true);
 
@@ -152,7 +353,7 @@ export function renderAboutMeData(data) {
     // --- Cargar Habilidades ---
     try {
         const skillComponent = skillsSection.querySelector(".aboutme-skill-item");
-        
+
         // Limpiar elementos clonados anteriores (mantener solo la plantilla)
         const allSkills = skillsSection.querySelectorAll(".aboutme-skill-item");
         allSkills.forEach((skill, index) => {
