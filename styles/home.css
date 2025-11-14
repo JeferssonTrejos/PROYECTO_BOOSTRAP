@@ -9,7 +9,7 @@
 
 /* ============ HERO SECTION ============ */
 .home-hero {
-  background: linear-gradient(135deg, var(--dark) 0%, var(--blue) 100%);
+  /* background: linear-gradient(135deg, var(--dark) 0%, var(--blue) 100%); */
   position: relative;
   overflow: hidden;
 }
@@ -26,7 +26,7 @@
   left: -10%;
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(0, 168, 255, 0.12) 0%, transparent 70%);
+  /* background: radial-gradient(circle, rgba(0, 168, 255, 0.12) 0%, transparent 70%); */
 }
 
 .home-hero::after {
@@ -242,7 +242,7 @@
 
 /* ============ SERVICES SECTION ============ */
 .home-services-section {
-  background: var(--dark);
+  /* background: var(--dark); */
 }
 
 .home-services-title {
