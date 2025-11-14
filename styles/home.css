@@ -471,6 +471,124 @@
   animation: float 4s ease-in-out infinite;
 }
 
+/* ==================== I PROVIDE SECTION ==================== */
+.home-provide {
+  background: var(--primary-dark);
+  padding: 80px 0;
+  margin: 0;
+}
+
+.home-provide-label {
+  font-size: 1rem;
+  color: var(--accent-bright);
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 0.5px;
+}
+
+.home-provide-title {
+  font-size: 2.2rem;
+  color: var(--text-light);
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.home-provide-title-yellow {
+  background: linear-gradient(90deg, var(--accent-bright), var(--cyan-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-btn-view-all {
+  background-color: transparent;
+  color: var(--accent-bright);
+  border: 2px solid var(--accent-bright);
+  padding: 10px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.home-btn-view-all:hover {
+  background-color: var(--accent-bright);
+  color: var(--primary-dark);
+  border-color: var(--accent-bright);
+  transform: translateY(-2px);
+}
+
+.home-provide-card {
+  background-color: var(--primary-blue);
+  border: 2px solid var(--accent-bright);
+  border-radius: 18px;
+  padding: 32px 24px;
+  text-align: left;
+  transition: all 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 104, 204, 0.15);
+}
+
+.home-provide-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 104, 204, 0.3);
+  background-color: rgba(0, 104, 204, 0.1);
+}
+
+.home-provide-card-title {
+  font-size: 1.2rem;
+  color: var(--accent-bright);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.home-provide-card-description {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.home-provide-link {
+  color: var(--accent-bright);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.home-provide-link:hover {
+  color: var(--cyan-accent);
+  transform: translateX(4px);
+}
+
+.home-provide-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(0, 104, 204, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 8px rgba(0, 104, 204, 0.1);
+}
+
+.home-provide-icon img {
+  width: 28px;
+  height: 28px;
+  display: block;
+  filter: invert(89%) sepia(37%) saturate(347%) hue-rotate(1deg) brightness(102%) contrast(98%);
+}
+
 @media (max-width: 768px) {
   .home-aboutme-img-circle {
     max-width: 220px;
