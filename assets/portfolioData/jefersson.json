@@ -5,9 +5,9 @@
         "subtitle": "Apasionado por la innovación tecnológica y la creación de soluciones que impacten positivamente. Experto en arquitectura de software y metodologías ágiles.",
         "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880",
         "stats": {
-            "projects": "40+",
-            "clients": "25+",
-            "years": "5+"
+            "projects": "7",
+            "clients": "10+",
+            "years": "3"
         }
     },
     "portfolio": {
@@ -120,7 +120,7 @@
     "aboutme": {
         "general": {
             "name": "Jefersson Trejos",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quas suscipit quisquam voluptatem rerum nam illo rem ab esse reiciendis alias libero omnis, fuga eaque consectetur qui eum tempore voluptas!",
+            "description": "Apasionado por la innovación tecnológica y la creación de soluciones que impacten positivamente. Experto en arquitectura de software y metodologías ágiles",
             "imageUrl": "https://plus.unsplash.com/premium_vector-1721131162917-25483874106e?q=80&w=880"
         },
         "experienceAndEducation": {
@@ -153,8 +153,25 @@
             "title": "Habilidades",
             "list": [
                 {
-                    "name": "Vue",
+                    "name": "MongoDB",
+                    "percentage": 50
+                },{
+                    "name": "SQL Server",
                     "percentage": 40
+                },{
+                    "name": "SQLite",
+                    "percentage": 40
+                },{
+                    "name": "Electron.js",
+                    "percentage": 20
+                },
+                {
+                    "name": "React",
+                    "percentage": 50
+                },
+                {
+                    "name": "Vue",
+                    "percentage": 30
                 },
                 {
                     "name": "Tailwind CSS",
@@ -162,6 +179,18 @@
                 },
                 {
                     "name": "Bootstrap",
+                    "percentage": 20
+                },{
+                    "name": "Javascript",
+                    "percentage": 70
+                },{
+                    "name": "Java",
+                    "percentage": 10
+                },{
+                    "name": "C#",
+                    "percentage": 10
+                },{
+                    "name": "WinForms",
                     "percentage": 20
                 }
             ]
