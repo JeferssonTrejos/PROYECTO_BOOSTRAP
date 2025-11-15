@@ -112,8 +112,7 @@
                     "Despliegue y hosting en Netlify"
                 ],
                 "technologies": "Vue.js, Vue Router, Pinia, JavaScript (ES6+), HTML5, SASS/CSS3, Netlify",
-                "demoLink": "https://github.com/JeferssonTrejos/CW-project/tree/main/Project_with_vue",
-                "livePreview": "https://panaderiaelrosariov2.netlify.app/"
+                "demoLink": "https://panaderiaelrosariov2.netlify.app/"
             }
         ]
     },
