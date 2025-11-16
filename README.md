@@ -46,6 +46,6 @@ Contiene un formulario con clases de Bootstrap.
 
 ### Enlace del Sitio en Netlify
 
-[https://www.google.com/search?q=https://jeferssontrejos.github.io/PROYECTO_BOOSTRAP/](https://www.google.com/search?q=https://jeferssontrejos.github.io/PROYECTO_BOOSTRAP/)
+[https://team-portafolio.netlify.app/](https://team-portafolio.netlify.app/)
 
 ---
